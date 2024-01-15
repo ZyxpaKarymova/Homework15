@@ -2,7 +2,7 @@ package org.example;
 /*
 Когтевранцы умны, мудры, остроумны и полны творчества.
  */
-public class Ravenclaw extends hogwarts{
+public class Ravenclaw extends Hogwarts {
     private String name;
     private int magicForce;
     private int apparitionDistance;

@@ -38,15 +38,15 @@ public class Main {
         Ravenclaw.compareRavenClawStudents(ravenclaws[0], ravenclaws[1]);
         Slytherin.compareSlytherinStudents(slytherins[1], slytherins[2]);
         System.out.println("Сравнение магии");
-        hogwarts.compareStudentsMagicForce(gryffindors[0], hufflepuffs[2]);
-        hogwarts.compareStudentsMagicForce(hufflepuffs[1], gryffindors[1]);
-        hogwarts.compareStudentsMagicForce(ravenclaws[0], slytherins[2]);
-        hogwarts.compareStudentsMagicForce(slytherins[1], ravenclaws[1]);
+        Hogwarts.compareStudentsMagicForce(gryffindors[0], hufflepuffs[2]);
+        Hogwarts.compareStudentsMagicForce(hufflepuffs[1], gryffindors[1]);
+        Hogwarts.compareStudentsMagicForce(ravenclaws[0], slytherins[2]);
+        Hogwarts.compareStudentsMagicForce(slytherins[1], ravenclaws[1]);
         System.out.println("Сравнение трансгрессии");
-        hogwarts.compareStudentsApparitionDistance(gryffindors[0], hufflepuffs[2]);
-        hogwarts.compareStudentsApparitionDistance(hufflepuffs[1], gryffindors[1]);
-        hogwarts.compareStudentsApparitionDistance(ravenclaws[0], slytherins[2]);
-        hogwarts.compareStudentsApparitionDistance(slytherins[1], ravenclaws[1]);
+        Hogwarts.compareStudentsApparitionDistance(gryffindors[0], hufflepuffs[2]);
+        Hogwarts.compareStudentsApparitionDistance(hufflepuffs[1], gryffindors[1]);
+        Hogwarts.compareStudentsApparitionDistance(ravenclaws[0], slytherins[2]);
+        Hogwarts.compareStudentsApparitionDistance(slytherins[1], ravenclaws[1]);
 
     }
 

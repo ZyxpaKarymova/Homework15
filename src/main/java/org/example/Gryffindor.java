@@ -3,7 +3,7 @@ package org.example;
 /*
 Всем Гриффиндорцам присущи благородство, честь и храбрость.
  */
-public class Gryffindor extends hogwarts {
+public class Gryffindor extends Hogwarts {
     private String name;
     private int magicForce;
     int apparitionDistance;

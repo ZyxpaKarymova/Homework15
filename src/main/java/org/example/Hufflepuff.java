@@ -3,7 +3,7 @@ package org.example;
 /*
 Студенты Пуффендуя трудолюбивы, верны, честны.
  */
-public class Hufflepuff extends hogwarts {
+public class Hufflepuff extends Hogwarts {
     private String name;
     private int magicForce;
     private int apparitionDistance;

@@ -3,7 +3,7 @@ package org.example;
 /*
 Всем ученикам Слизерина присущи хитрость, решительность, амбициозность, находчивость и жажда власти.
  */
-public class Slytherin extends hogwarts {
+public class Slytherin extends Hogwarts {
     private String name;
     private int magicForce;
     private int apparitionDistance;
